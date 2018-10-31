@@ -9,6 +9,7 @@
 #include<windows.h>
 using namespace std;
 
+//all keywords of java
 char keywords[50][15]={"abstract","assert","boolean","break",
 "byte","catch","case","char","const",
 "continue","class","default","do",
@@ -58,6 +59,7 @@ void check_key(char *p)
 }
 int main()
 {
+	//var declarations for various purposes
     int j;
     char filename[50];
     char chr,ckeck_str[25],separators[20]="\n\t,;:(){}[]#\"<>",oprators[20]="!%^&*-+=~|.<>/?";
@@ -146,6 +148,8 @@ int main()
         else
             i=0;
     }
+	//various statistics of the program
+	
     cout<<"______________________________________________________\n";
     cout<<"\nOverall Statistics of given JAVA program.\a\n";
     cout<<"\n\n*********\nNo. of Keywords in JAVA file are: "<<count_keyword;
