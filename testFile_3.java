@@ -11,9 +11,9 @@ class Armstrong
             check = check + (int)Math.pow(remainder,3);
             num = num / 10;
         }
-        if(check == n)
-            System.out.println(n+" is an Armstrong Number");
+        if(check != n)
+            System.out.println(n+" - not Armstrong Number");
         else
-            System.out.println(n+" is not a Armstrong Number");
+            System.out.println(n+" - Armstrong Number");
     }
 }
